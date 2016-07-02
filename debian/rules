@@ -1,3 +1,8 @@
 #!/usr/bin/make -f
 %:
 	dh $@
+
+# Remove executable bit from CSS files, etc.
+override_dh_fixperms:
+	dh_fixperms
+	find debian/$(PACKAGE_NAME) -type f -perm 755 -print -exec chmod 644 {} \;
