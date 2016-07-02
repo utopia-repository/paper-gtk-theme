@@ -1,0 +1,17 @@
+Source: paper-gtk-theme
+Section: x11
+Priority: optional
+Maintainer: James Lu <bitflip3@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://snwh.org/paper
+Vcs-Git: https://github.com/utopia-repository/paper-gtk-theme
+Vcs-Browser: https://github.com/utopia-repository/paper-gtk-theme
+
+Package: paper-gtk-theme
+Architecture: all
+Depends: ${misc:Depends}
+Description: modern desktop theme suite with mostly flat design
+ Paper is a modern desktop theme suite designed with modern GTK3 (GNOME-based)
+ desktop environments in mind. Its design is mostly flat with a minimal use of
+ shadows for depth.
